@@ -1,0 +1,100 @@
+/* Base styles already applied for larger screens */
+
+@media (min-width: 300px)and (max-width: 600px) { /* Phone */
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+        border-radius: 2rem;
+    }
+
+    .nnn {
+        font-size: var(--fs-9);
+    }
+
+    .e{
+        width: 15.6rem;
+    }
+
+
+    .big {
+        height: 8rem;
+    }
+
+    .btn {
+        width: 100%;
+        height: 35px;
+        margin: 0.5rem;
+    }
+
+    #head {
+        font-size: var(--fs-8);
+        padding: 3vh 10px 3px;
+    }
+
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) { /* Tablet */
+    .container {
+        padding: 30px;
+        border-radius: 4rem;
+    }
+
+    .nnn {
+        font-size: var(--fs-5);
+    }
+
+    .e{
+        width: 36.3rem;
+    }
+
+    .v{
+        font-size: var(--fs-7);
+    }
+
+    .big {
+        height: 9rem;
+    }
+
+    .btn {
+        width: 80%;
+        height: 38px;
+    }
+
+    #head {
+        font-size: var(--fs-4); /* Slightly smaller heading on tablet */
+        padding: 4vh 15px 4px;
+    }
+}
+
+@media (min-width: 1025px) { /* Laptop */
+    .container {
+        max-width: 800px;
+        padding: var(--section-padding);
+    }
+
+    .nnn {
+        font-size: var(--fs-6)
+    }
+
+    .v {
+        font-size: var(--fs-7);
+    }
+
+    .big {
+        height: 12rem;
+    }
+
+    .btn {
+        width: 150px;
+        height: 45px;
+    }
+
+    #head {
+        font-size: var(--fs-4); 
+        padding: 5vh 10px 5px;
+    }
+}
